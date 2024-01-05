@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+
+    <tasks>
+        <task handle="custom_site_health_report_example" package="site_health_report_example"/>
+    </tasks>
+    <tasksets>
+        <taskset handle="site_health">
+            <task handle="custom_site_health_report_example"/>
+        </taskset>
+    </tasksets>
+
+</concrete5-cif>
